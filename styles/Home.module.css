@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+.container {
+    /* max-width: 960px; */
+    margin: 0 auto;
+    /* padding: 2rem; */
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .hero {
+    position: relative;
+    text-align: center;
+    padding: 20px;
+    height: 90vh;
+  }
+
+  .hero img{
+    border-radius: 100%;
+    max-width: 100%;
+  }
+  
+  .hero .product-image {
+    margin-bottom: 20px;
+  }
+  
+  .hero .content {
+    color: #000000;
+    font-family: Comfortaa;
+  }
+  
+  .hero .content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .hero .content .buttons {
+    margin-top: 20px;
+  }
+  
+  .hero .content .buttons a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: 2px solid;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 767px) {
+    .hero .content {
+      top: 40%;
+    }
+  }
+
+  @media (min-width: 480px) {
+    .hero img {
+      max-width: 30%;
+     
+    }
+  }
+  
+  
+  
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color:tomato;
+    border-radius: 10px;
+    color: whitesmoke;
+  }
+  
+  .aboutContent {
+    flex: 1;
+    padding: 2rem;
+  }
+  
+  .aboutText {
+    margin-bottom: 2rem;
+  }
+  
+  .aboutImage {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: flex-start;
+    
+  }
+  
+  #projects h2{
+    text-align: center;
+  }
+  .projectCard {
+    flex-basis: calc(33.33% - 20px);
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .projectCard img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .projectCard h3 {
+    margin-top: 10px;
+  }
+  
+  .projectCard p {
+    margin-top: 10px;
+  }
+  
+  
+  
+  .footer {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  
+  .social{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 20px;
+  }
+
+  .social a{
+    text-decoration: none;
+    color: #000000;
+  }
