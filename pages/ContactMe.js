@@ -5,7 +5,7 @@ const ContactMe = () => {
   return (
     <section id='contact' className={styles.contact}>
       <div className={styles.container}>
-        <h2>Contact Us</h2>
+        <h2>Contact Me</h2>
         <form action="https://formsubmit.co/tsmane8787@gmail.com" method="POST">
         <input type="hidden" name="_captcha" value="false" />
           <div className={styles.formGroup}>
@@ -20,7 +20,9 @@ const ContactMe = () => {
             <label htmlFor="message">Message</label>
             <textarea id="message" name="message" placeholder="Your message" required></textarea>
           </div>
+          <div className='styles.button'>
           <button type="submit">Send Message</button>
+          </div>
         </form>
       </div>
     </section>
